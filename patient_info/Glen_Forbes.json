@@ -1,0 +1,47 @@
+{
+    "patient": {
+        "gender": "male",
+        "first_name": "Glen",
+        "last_name": "Forbes",
+        "dob": "1986-11-11",
+        "generalPractitioner": [
+            {
+                "display": "Dr. Ellie Ortega",
+                "specialty": "Cardiologist"
+            }
+        ],
+        "address": {
+            "display": "2630 Wetzel Lane Grand Rapids, MI 49503",
+            "use": "home"
+        }, 
+        "timezone":"America/Detroit"
+    },
+    "conditions": [
+        {
+            "display": "CHF",
+            "active": true
+        }
+    ],
+    "procedures": [],
+    "medications": [
+        {
+            "name": "Valsartan",
+            "display": "Valsartan 80 mg oral tablet",
+            "dosage": "80mg two times a day",
+            "active": true
+        },
+        {
+            "name": "Lasix",
+            "display": "Lasix 20 mg oral tablet",
+            "dosage": "20mg two times a day",
+            "active": true,
+            "new": true
+        }
+    ],
+    "clinical_notes": [
+        {
+            "type": "PCP_NOTE",
+            "text": "Chronic CHF with recent onset of ankle edema and mild shortness of breath. Cardiologist increased the Valsartan dose and started on Lasix.  On a 1.5 Liter Fluid restriction and sodium restricted diet. weight: 201.3 lbs"
+        }
+    ]
+}

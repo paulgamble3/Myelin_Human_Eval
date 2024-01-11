@@ -1,0 +1,76 @@
+{
+    "patient": {
+        "gender": "female",
+        "first_name": "Nancy",
+        "last_name": "Green",
+        "dob": "1955-12-01",
+        "generalPractitioner": [
+            {
+                "display": "Dr. Molly Sutton",
+                "specialty": "Cardiologist"
+            }
+        ],
+        "address": {
+            "display": "3944 Berry Street Colorado, CO 81109 ",
+            "use": "home"
+        }
+    },
+    "conditions": [
+        {
+            "display": "CHF",
+            "active": true
+        },
+        {
+            "display": "Lactose Intolerant",
+            "active": true
+        }
+    ],
+    "procedures": [],
+    "medications": [
+        {
+            "name": "Lasix",
+            "display": "Lasix 20 mg oral tablet",
+            "dosage": "40 mg two times a day",
+            "active": true,
+            "new": true
+        },
+        {
+            "name": "Lisinopril",
+            "display": "Lisinopril 5 mg oral tablet",
+            "dosage": "5 mg two times a day",
+            "active": true,
+            "new": true
+        },
+        {
+            "name": "Gabapentin",
+            "display": "Gabapentin 300 mg oral capsule",
+            "dosage": "300 mg three times a day as needed",
+            "active": true
+        },
+        {
+            "name": "Tylenol",
+            "display": "Tylenol 500 mg oral tablet",
+            "dosage": "1000 mg three times a day as needed",
+            "active": true,
+            "new": true
+        },
+        {
+            "name": "potassium",
+            "display": "Potassium 20 milliequivalent oral tablet",
+            "dosage": "40 milliequivalent once a day",
+            "active": true
+        },
+        {
+            "name": "Losartan",
+            "display": "Losartan 50 mg oral tablet",
+            "dosage": "50 mg once a day",
+            "active": true
+        }
+    ],
+    "clinical_notes": [
+        {
+            "type": "PCP_NOTE",
+            "text": "Patient weight is 192 lbs. Last visit to the PCP patient resistant to change diet to a salt and fluid restricted diet."
+        }
+    ]
+}

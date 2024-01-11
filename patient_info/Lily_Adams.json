@@ -1,0 +1,335 @@
+{
+    "patient": {
+        "gender": "female",
+        "first_name": "Lily",
+        "last_name": "Adams",
+        "dob": "1950-01-01",
+        "generalPractitioner": [
+            {
+                "display": "Dr. Jonathan Chang",
+                "specialty": "Cardiologist"
+            }
+        ],
+        "address": {
+            "display": "58 STETSON PL, DUXBURY, MA, 02332-4507, US",
+            "use": "home"
+        }, 
+        "timezone": "America/New_York",
+        "preferred_pharmacy": {
+            "id": "dfd40c44-f79f-4b07-9b51-fcc53f286e06"
+        }
+    },
+    "conditions": [
+        {
+            "display": "Congestive Heart Failure",
+            "active": true
+        }
+    ],
+    "procedures": [],
+    "medications": [
+        {
+            "name": "Lasix",
+            "display": "Lasix 20 mg oral tablet",
+            "dosage": "20mg oral twice a day",
+            "active": true,
+            "new": true,
+            "pharmacy": {
+                "id": "dfd40c44-f79f-4b07-9b51-fcc53f286e06"
+            },
+            "ingredientStrength": "20 mg", 
+            "doseForm": "tablet", 
+            "route": "oral",
+            "timing": "twice a day", 
+            "totalDailyDose": "40 mg", 
+            "quantityPerDose": "1 tablets for a total of 20 mg", 
+            "quantityPerDay": "2 tablets for a total of 40 mg", 
+            "quantityPerWeek": "14 tablets for a total of 280 mg", 
+            "expectedSupplyDuration": { 
+                "quantity": "100 tablets", 
+                "value": 50,
+                "unit": "days"
+            }
+        },
+        {
+            "name": "Potassium",
+            "display": "Potassium 20 milliequivalent oral tablet",
+            "dosage": "40 milliequivalent once a day",
+            "active": true,
+            "ingredientStrength": "20 milliequivalent", 
+            "doseForm": "tablet", 
+            "route": "oral",
+            "timing": "once a day", 
+            "totalDailyDose": "40 milliequivalent", 
+            "quantityPerDose": "2 tablets for a total of 40 milliequivalent", 
+            "quantityPerDay": "2 tablets for a total of 40 milliequivalent", 
+            "quantityPerWeek": "14 tablets for a total of 280 milliequivalent", 
+            "expectedSupplyDuration": { 
+                "quantity": "100 tablets", 
+                "value": 50,
+                "unit": "days"
+            }
+        },
+        {
+            "name": "Lisinopril",
+            "display": "Lisinopril 10 mg oral tablet",
+            "dosage": "10 mg daily",
+            "active": true,
+            "new": true,
+            "pharmacy": {
+                "id": "dfd40c44-f79f-4b07-9b51-fcc53f286e06"
+            },
+            "ingredientStrength": "10 mg", 
+            "doseForm": "tablet", 
+            "route": "oral",
+            "timing": "once a day", 
+            "quantityPerDose": "1 tablet for a total of 10 mg", 
+            "quantityPerDay": "1 tablet for a total of 10 mg", 
+            "quantityPerWeek": "7 tablets for a total of 70 mg", 
+            "expectedSupplyDuration": { 
+                "quantity": "100 tablets", 
+                "value": 100,
+                "unit": "days"
+            }
+        },
+        {
+            "name": "Tylenol",
+            "display": "Tylenol 500 mg oral tablet",
+            "dosage": "1000mg every 8 hours, as needed",
+            "active": true,
+            "ingredientStrength": "500 mg", 
+            "doseForm": "tablet", 
+            "route": "oral",
+            "timing": "every 8 hours, as needed", 
+            "totalDailyDose": "3000mg", 
+            "quantityPerDose": "2 tablets as needed for a total of 1000 mg", 
+            "quantityPerDay": "6 tablets as needed for a maximum total dose of 3000 mg", 
+            "quantityPerWeek": "42 tablets as needed for a maximum total dose of 21000 mg", 
+            "expectedSupplyDuration": { 
+                "quantity": "100 tablets", 
+                "value": 16,
+                "unit": "days" 
+            }
+        }
+    ],
+    "numerical_observations": [
+        {
+            "name": "glucose",
+            "note": "fasting",
+            "value": 132.0,
+            "unit": "mg/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "hemoglobin",
+            "value": 11.3,
+            "unit": "g/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "hematocrit",
+            "value": 36.0,
+            "unit": "%",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "wbc",
+            "value": 8.0,
+            "unit": "x10^9/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "platelets",
+            "value": 150.0,
+            "unit": "x10^9/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "mcv",
+            "value": 79.0,
+            "unit": "fL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "pcv",
+            "value": 0.38,
+            "unit": "fL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "red blood cell count",
+            "value": 4.4,
+            "unit": "x10^12",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "mch",
+            "value": 28.0,
+            "unit": "pg",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "mchc",
+            "value": 310.0,
+            "unit": "g/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "rdw",
+            "value": 11.5,
+            "unit": "",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "albumin",
+            "value": 3.5,
+            "unit": "g/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "alkaline phosphatase",
+            "value": 38.0,
+            "unit": "U/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "alanine transaminase",
+            "value": 12.0,
+            "unit": "U/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "sodium",
+            "value": 144.0,
+            "unit": "mEq/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "ast",
+            "value": 5.0,
+            "unit": "U/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "bilirubin",
+            "value": 0.3,
+            "unit": "mg/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "blood urea nitrogen",
+            "value": 8.0,
+            "unit": "mg/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "calcium",
+            "value": 8.9,
+            "unit": "mg/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "chloride",
+            "value": 103.0,
+            "unit": "mmol/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "creatinine",
+            "value": 0.58,
+            "unit": "mg/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "potassium",
+            "value": 3.3,
+            "unit": "mmol/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "protein",
+            "value": 6.7,
+            "unit": "g/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "carbon dioxide",
+            "value": 23.0,
+            "unit": "mmol/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "anion gap",
+            "value": 5.0,
+            "unit": "mmol/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "globulin",
+            "value": 3.0,
+            "unit": "g/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "magnesium",
+            "value": 1.7,
+            "unit": "mg/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "phosphorus",
+            "value": 4.0,
+            "unit": "mg/dL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "bnp",
+            "value": 20.0,
+            "unit": "pg/mL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "prothrombin time",
+            "value": 11.0,
+            "unit": "seconds",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "inr",
+            "value": 0.8,
+            "unit": "",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "partial thromboplastin time",
+            "value": 26.0,
+            "unit": "seconds",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "creatine kinase (ck)",
+            "value": 56.0,
+            "unit": "U/L",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        },
+        {
+            "name": "troponin i",
+            "value": 0.01,
+            "unit": "ng/mL",
+            "effectiveDateTime": "2024-01-08T00:00:00.000Z"
+        }
+    ],
+    "clinical_notes": [
+        {
+            "id": "efd4bd74-52b8-46b9-9472-db12a53a25d7",
+            "title": "Hospital visit summary",
+            "type": "PCP_NOTE",
+            "text": "She was discharged from the hospital 2 days ago for an acute CHF exacerbation. She presented to the hospital with SOB (shortness of breath), fatigue, and unexplained weight gain. Discharged home and told to take two new medications for her: 1) Lasix and 2) Lisinopril. Weight at discharge was 141 lbs. As per the discharge note you read her sodium intake is not to exceed 2000 mg per day, and her fluid intake is not to exceed 1.5-2 L per day. "
+        },
+        {
+            "id": "9b0e4b4a-f9e7-4213-a59d-7edbbca832a8",
+            "title": "Discharge instructions",
+            "type": "NURSE_NOTE",
+            "text": "You were discharged from the hospital after an acute CHF exacerbation. You need to take two new medications: 1) Lasix and 2) Lisinopril. Sodium intake is not to exceed 2000 mg per day, and fluid intake is not to exceed 1.5-2 L per day."
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "patient": {
+        "gender": "male",
+        "first_name": "Larry",
+        "last_name": "Phillips",
+        "dob": "1961-12-05",
+        "generalPractitioner": [
+            {
+                "display": "Dr. Trevor Sutton",
+                "specialty": "Cardiologist"
+            }
+        ],
+        "address": {
+            "display": "3968 Berkley Street Allentown, PA 18109",
+            "use": "home"
+        }, 
+        "timezone":"America/New_York"
+    },
+    "conditions": [
+        {
+            "display": "CHF",
+            "active": true
+        }
+    ],
+    "procedures": [],
+    "medications": [
+        {
+            "name": "Valsartan",
+            "display": "Valsartan 80 mg oral tablet",
+            "dosage": "80mg two times a day",
+            "active": true
+        },
+        {
+            "name": "Lasix",
+            "display": "Lasix 20 mg oral tablet",
+            "dosage": "20mg two times a day",
+            "active": true
+        }
+    ],
+    "clinical_notes": [
+        {
+            "type": "PCP_NOTE",
+            "text": "Chronic CHF with recent ER visit for trouble sleeping, dry hacking cough. Tested for COVID (negative), Cardiologist increased Lasix to 20mg two times a day. Pt is not adherent to meds or daily weights, diet. Referral to dietician. Patient discharged from the hospital a day ago. Follow up with PCP within 7 days. Weight: 189.2 lbs"
+        }
+    ]
+}
